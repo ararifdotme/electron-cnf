@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Lightweight package for managing Electron settings and configuration data",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +17,9 @@
     "electron storage",
     "electron store"
   ],
+  "peerDependencies": {
+    "electron": ">=1.0.0"
+  },
   "author": "A R Arif",
   "license": "MIT",
   "bugs": {
